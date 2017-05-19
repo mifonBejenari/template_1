@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'MuseoSansCyrl-700';
+  src: url('..//fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),  
+        url('..//fonts/MuseoSansCyrl-700.otf')  format('opentype'),
+        url('..//fonts/MuseoSansCyrl-700.woff') format('woff'), 
+        url('..//fonts/MuseoSansCyrl-700.ttf')  format('truetype'), 
+        url('..//fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: url('..//fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'),  
+    url('..//fonts/Avenir-Medium.woff') format('woff'), 
+    url('..//fonts/Avenir-Medium.ttf')  format('truetype'), 
+    url('..//fonts/Avenir-Medium.svg#Avenir-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir-Heavy';
+    src: url('..//fonts/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),  
+    url('..//fonts/Avenir-Heavy.woff') format('woff'), 
+    url('..//fonts/Avenir-Heavy.ttf')  format('truetype'), 
+    url('..//fonts/Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir-BookOblique';
+  src: url('..//fonts/Avenir-BookOblique.eot?#iefix') format('embedded-opentype'),  
+    url('..//fonts/Avenir-BookOblique.woff') format('woff'), 
+    url('..//fonts/Avenir-BookOblique.ttf')  format('truetype'), 
+    url('..//fonts/Avenir-BookOblique.svg#Avenir-BookOblique') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url('..//fonts/MuseoSans-500.eot?#iefix') format('embedded-opentype'),  
+        url('..//fonts/MuseoSans-500.otf')  format('opentype'),
+        url('..//fonts/MuseoSans-500.woff') format('woff'), 
+        url('..//fonts/MuseoSans-500.ttf')  format('truetype'), 
+        url('..//fonts/MuseoSans-500.svg#MuseoSans-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('..//fonts//icomoon//fonts/icomoon.eot?2078hz');
+  src:  url('..//fonts//icomoon//fonts/icomoon.eot?2078hz#iefix') format('embedded-opentype'),
+    url('..//fonts//icomoon//fonts/icomoon.ttf?2078hz') format('truetype'),
+    url('..//fonts//icomoon//fonts/icomoon.woff?2078hz') format('woff'),
+    url('..//fonts//icomoon//fonts/icomoon.svg?2078hz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+    font-size: 16px;
+    color: #f7fdfe;
+}
+
+h1 {
+    font-size: 2.75rem;
+    font-family: 'Avenir-Heavy';
+    margin-bottom: 21px;
+    line-height: 1;
+}
+h5 {
+    font-size: 1.1rem;
+    font-family: 'Avenir-Heavy';
+    margin-top: 11px;
+    letter-spacing: 0.02rem;
+    line-height: 1;
+}
+h6, 
+.footer_h6 {
+    font-family: 'MuseoSans-500';
+    font-size: 0.7rem;
+    color: #d7dee4;
+    line-height: 1;
+    letter-spacing: 0.06rem;
+        word-spacing: -0.09rem;
+}
+p {
+    font-size: 1.2rem;
+    font-family: 'Avenir-Medium';
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.03rem;
+}
+a {
+    font-family: 'MuseoSansCyrl-700';
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #82868f;
+}
+.fofaobl {
+    font-size: 1rem;
+    font-family: 'Avenir-BookOblique';
+    margin: 0 4px 0 0;
+    letter-spacing: 0;
+}
+.btn {
+    color: #f7fdfe;
+    background: #0ebfdd;
+    border-radius: 20px;
+    letter-spacing: 0.04rem;
+    padding: 14px 36px 11px;
+}
+
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+
+.clearfix {
+    zoom: 1;
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+.clearfix::after {
+    display: table;
+    overflow: hidden;
+}
+
+
+header {
+    background: #f7fdfe;
+    padding: 20px 0;
+}
+
+a[title="Home"] {
+    float: left;
+    font-size: 1.9rem;
+    margin: 1px -2px 0;
+    letter-spacing: 0.6px;
+}
+
+.signin {
+    float: right;
+}
+
+.menu {
+    float: right;
+    margin-top: 12px;
+}
+.menu li {
+    float: left;
+    margin: 0 25px 0 10px;
+}
+.menu a {
+    letter-spacing: 0.06rem;
+}
+
+.ourmission {
+    position: relative;
+    line-height: 0; 
+}
+.ourmission img {
+    width: 100%;
+    height: 600px; 
+}
+.ourmission div.container {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    padding: 50px 50px 80px;
+}
+.ourmission h1:before, 
+            :after {
+    font-family: 'icomoon';
+    vertical-align: middle;
+    font-size: 0.25em;
+    margin: 0 3px;
+}
+.ourmission h1:before {
+    content: "\e903";
+}
+.ourmission h1:after {
+    content: "\e903";
+}
+
+
+.about {
+    position: relative;
+
+}
+.about div.container {
+    text-align: center;
+    padding: 63px 50px 66px;
+}
+.about h1 {
+    color: #0ebfdd;
+}
+.about p {
+    color: #45494d;
+}
+
+
+.team {
+    background: #0ebfdd;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 63px;
+
+}
+.team h1 {
+    color: #ffffff;
+    padding-bottom: 79px;
+}
+.team1 {
+    display: inline-block;
+    margin: 0 33px;
+}
+.team1:last-of-type {
+    padding-right: 10px;
+}
+.team1 div {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+} 
+.wowius {
+    display: block;
+    clear: both;
+    border: 1px solid #fff;
+    margin: 96px 380px 0;
+}
+
+
+.map {
+    display: block;
+    line-height: 0;
+}
+
+footer {
+    background: #45494d;
+    padding: 20px 0 15px;
+}
+
+.footmenu {
+    float: left;
+    margin: 11px 0 30px;
+}
+.footmenu li {
+    float: left;
+    margin-right: 34px;
+}
+.socials {
+    float: right;
+}
+.socials li {
+    float: right;
+    margin-left: 9px;
+}
+.socials a {
+    display: block;
+    font-family: 'icomoon';
+    color: #d7dee4;
+    border: 1px solid #d7dee4;
+    border-radius: 50%;
+    padding: 13px;
+}
+a[title="twitter"]:before {
+    content: '\e900';
+}
+
+a[title="facebook"]:before {
+    content: '\e901';
+}
+
+a[title="mail"]:before {
+    content: '\e902';
+}
+ 
+
+.companydoc {
+    padding-top: 14px; 
+    overflow: hidden;
+    border-top: 1px solid #5a5e62;
+    clear: both;
+}
+
+.companydoc ul li{
+    float: right;
+    margin-left: 16px;
+    padding-right: 17px;
+    border-right: 1px solid #73767a;
+}
+.companydoc ul li:first-of-type {
+    border: none;
+    padding-right: 0;
+}
+.companydoc h6 {
+    color: #73767a;
+    font-size: 0.75rem;
+    letter-spacing: 0.02rem;
+}
